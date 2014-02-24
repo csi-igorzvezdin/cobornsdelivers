@@ -1,0 +1,15 @@
+<div class='controller-container' >
+    <img src="http://tiandebeauty.com/wp-content/uploads/2012/06/testtiande.gif" class='main-logo'>
+    <center>MobileGrocer</center>
+    <div class="field_block">
+        <div ng-show="username_hint" class='hint'>username_hint</div>
+        <input type="text" id="username" placeholder="Enter Username">
+        <button class="btn btn-primary btn-sml" ng-click="username_hint = true">
+    </div>
+    <div class="field_block">
+        <div ng-show="password_hint">password_hint</div>
+        <input type="password" id="password" placeholder="Enter Password">
+        <button class="btn btn-primary btn-sml" ng-click="password_hint = true">
+    </div>
+    <button class="btn btn-success btn-large login-btn" ng-click="home()">Login</button>
+</div>
